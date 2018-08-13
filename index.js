@@ -99,7 +99,7 @@ module.exports = function(url) {
   }
 
   // Get the db name
-  object.dbName = dbName || 'admin';
+  object.dbName = dbName || '';
   // Split up all the options
   urlOptions = (query_string_part || '').split(/[&;]/);
   // Ugh, we have to figure out which options go to which constructor manually.
